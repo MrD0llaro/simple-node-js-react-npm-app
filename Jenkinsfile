@@ -8,7 +8,6 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'npm init' 
                 sh 'npm install debug' 
             }
         }
