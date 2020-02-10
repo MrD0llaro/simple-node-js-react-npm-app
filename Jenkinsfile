@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'npm i -D typescript'
+                sh 'npm i -g react-scripts'
                 sh './jenkins/scripts/test.sh'
             }
         }
