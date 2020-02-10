@@ -12,6 +12,8 @@ echo 'https://stackoverflow.com/questions/18875674/whats-the-difference-between-
 set -x
 npm install --save-dev cross-env
 npm i --save-dev react-scripts
+npm i --save-dev react
+npm i --save-dev react-dom
 set +x
 
 echo 'The following "npm" command tests that your simple Node.js/React'
