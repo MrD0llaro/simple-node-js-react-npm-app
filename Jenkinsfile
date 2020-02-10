@@ -6,9 +6,14 @@ pipeline {
         }
     }
     stages {
+    stage('PreBuild') { 
+            steps {
+                sh 'npm init' 
+            }
+        },
         stage('Build') { 
             steps {
-                sh 'npm install' 
+                sh 'npm install debug' 
             }
         }
     }
